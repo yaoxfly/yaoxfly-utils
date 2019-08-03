@@ -1,11 +1,22 @@
 {
   "name": "yaoxfly-utils",
   "version": "0.1.0",
-  "private": true,
+  "description": "工具类",
+  "main": "utils/yaoxfly-utils.umd.min.js",
+  "files": ["utils"],
+  "private": false,
+  "license": "MIT",
+  "author": "yaoxfly",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name yaoxfly-utils --dest utils lib/index.js",
+    "publish": "npm version patch -f"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/yaoxfly/yaoxfly-request.git"
   },
   "dependencies": {
     "core-js": "^2.6.5",
