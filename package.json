@@ -1,6 +1,6 @@
 {
   "name": "yaoxfly-utils",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "工具类",
   "main": "utils/yaoxfly-utils.umd.min.js",
   "files": [
