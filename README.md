@@ -1,29 +1,39 @@
 # yaoxfly-utils
 
-## Project setup
+## 介绍
+
+本项目包含项目中常用的方法,包括 uni-app 的一些方法的封装,
+有待完善
+
+### 安装教程
+
 ```
-npm install
+npm i yaoxfly-utils
 ```
 
-### Compiles and hot-reloads for development
+### 使用说明
+
+1. 在 main.js 文件里
+
 ```
-npm run serve
+import utils from 'yaoxfly-utils'
+Vue.use(utils)
 ```
 
-### Compiles and minifies for production
+2. 示范
+
 ```
-npm run build
+console.log(this.$YxUtils.timeStampToDate(1564808776))
 ```
 
-### Run your tests
-```
-npm run test
+输出结果:2019-08-3
+
+### 方法介绍
+
 ```
 
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
