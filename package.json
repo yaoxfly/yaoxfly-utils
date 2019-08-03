@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/yaoxfly/yaoxfly-request.git"
+    "url": "https://gitee.com/yaoxfly/yaoxfly-utils.git"
   },
   "dependencies": {
     "core-js": "^2.6.5",
