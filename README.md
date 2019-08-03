@@ -26,14 +26,23 @@ Vue.use(utils)
 console.log(this.$YxUtils.timeStampToDate(1564808776))
 ```
 
-输出结果:2019-08-3
+输出结果:2019-08-03
+
+###### 注:需要使用 this 对象才能引用方法哦
 
 ### 方法介绍
 
-```
+##### this.\$YxUtils.urlHandle
+
+网址 处理,根据协议添加 http 或者 https
+| 参数名 | 类型 | 必填 | 说明 | 平台差异说明|
+| :------: | :------: | :------: | :------: |:------: |
+| url | String | 是 | 网址 |H5|
+
+### 源码地址
+
+[yaoxfly-util](https://gitee.com/yaoxfly/yaoxfly-utils) 看到我了就帮我点 star 哦,谢谢!
 
 ```
 
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
