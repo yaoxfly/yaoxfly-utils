@@ -2895,7 +2895,7 @@ function () {
 
       var year = d.getFullYear();
       var month = d.getMonth() + 1 > 9 ? d.getMonth() + 1 : "0" + (d.getMonth() + 1);
-      var date = d.getDate() ? d.getDate() : "0" + d.getDate();
+      var date = d.getDate() + 1 > 9 ? d.getDate() : "0" + d.getDate();
       return year + "-" + month + "-" + date;
     }
     /**
