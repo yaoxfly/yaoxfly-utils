@@ -157,7 +157,3 @@ tips: 图片路径 blob 格式的
 ##### 8.this.\$YxUni.getCurrentDomainName()
 
 获取当前域名 //兼容旧版本的工程使用-主要为了跳转到旧版本页面
-
-### 源码地址
-
-[yaoxfly-util](https://gitee.com/yaoxfly/yaoxfly-utils) 看到我了就帮我点 star 哦,谢谢!
