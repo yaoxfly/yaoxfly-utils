@@ -34,7 +34,7 @@ console.log(this.$YxUtils.timeStampToDate(1564808776))
 
 ##### 1. this.\$YxUtils.urlHandle(url)
 
-网址 处理,根据协议添加 http 或者 https
+网址处理,根据当前域名所在的协议自动添加 http 或者 https
 | 参数名 | 类型 | 必填 | 说明 | 平台差异说明|
 | :------: | :------: | :------: | :------: |:------: |
 | url | String | 是 | 网址 |H5|
