@@ -92,7 +92,7 @@ blob 转 base64 并压缩
 
 tips: 图片路径 blob 格式的
 
-####YxUtils 类 针对 uni-app 的封装
+####YxUni 类 针对 uni-app 的封装
 
 ##### 1.this.\$YxUni.back(delta,time)
 
