@@ -14,7 +14,8 @@ export default {
     HelloWorld
   },
   created() {
-    console.log(this.$YxUtils.isNullObject());
+    console.log(Yx.timestampFormat(1573983533));
+    console.log("12" - "122");
   },
   mounted() {},
   methods: {}

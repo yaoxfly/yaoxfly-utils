@@ -1,6 +1,6 @@
 {
   "name": "yaoxfly-utils",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "工具类",
   "main": "utils/yaoxfly-utils.umd.min.js",
   "files": [
@@ -21,6 +21,7 @@
     "url": "https://gitee.com/yaoxfly/yaoxfly-utils.git"
   },
   "dependencies": {
+    "compression-webpack-plugin": "^3.0.1",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
